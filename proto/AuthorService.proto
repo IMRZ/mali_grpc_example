@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package author;
+
+service AuthorService {
+  rpc GetAuthor (GetAuthorRequest) returns (GetAuthorResponse);
+}
+
+message GetAuthorRequest {
+  string id = 1;
+}
+
+message GetAuthorResponse {
+  string name = 1;
+}

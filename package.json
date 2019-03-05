@@ -1,0 +1,13 @@
+{
+  "name": "mali_grpc_example",
+  "version": "0.1.0",
+  "scripts": {
+    "start:server": "node src/server/index.js",
+    "start:client": "node src/client/index.js"
+  },
+  "dependencies": {
+    "@grpc/proto-loader": "^0.4.0",
+    "grpc": "^1.19.0",
+    "mali": "^0.11.0"
+  }
+}
